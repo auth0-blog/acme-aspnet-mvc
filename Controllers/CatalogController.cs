@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace acme.Controllers;
 
@@ -10,6 +11,7 @@ public class CatalogController : Controller {
         _logger = logger;
     }
 
+    [Authorize]
     public IActionResult Index()
     {
         return View();
