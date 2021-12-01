@@ -3,7 +3,7 @@ using Auth0.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Auth0.Mvc.ViewModels;
+using acme.ViewModels;
 using System.Security.Claims;
 
 public class AccountController : Controller
