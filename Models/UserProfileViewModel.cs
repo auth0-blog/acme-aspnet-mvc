@@ -1,4 +1,4 @@
-namespace Auth0.Mvc.ViewModels;
+namespace acme.ViewModels;
 
 public class UserProfileViewModel
 {
